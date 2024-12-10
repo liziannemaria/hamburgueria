@@ -1,0 +1,59 @@
+.cabecalho {
+    width: 100vw; /*largura*/
+    height: 70px; /*altura*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#fe2120;
+    position: fixed;
+    
+    
+}
+
+.logo{
+    height: 130px;
+    width: 130px;
+    display:flex;
+    justify-content: center;
+    margin: 0px;
+    object-fit: cover;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: center;  /*Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 60px; /* Defina a altura conforme necessário */
+    width: 100%;
+    margin-left: 700px;
+    font-size: black;
+    gap: 10px;
+} 
+.list-menu {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Coloca os itens lado a lado */
+    left: 800px;
+    margin: 70px;
+    cursor: pointer;
+    margin: 10px;
+   
+}
+
+.list-menu li {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 10px; /* Espaçamento entre os itens */
+}
+.list-menu li a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: white; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    display: flex; /* Torna o link flexível */
+    align-items: center; /* Alinha o texto e os ícones verticalmente */
+}
+
+/* Estilo para os ícones dentro dos links */
+.list-menu li a i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
+}
